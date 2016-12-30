@@ -9,6 +9,10 @@
   },
   "author": "Vu Tran <vu@vu-tran.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vutran/mac-icons"
+  },
   "devDependencies": {
     "babel-jest": "^17.0.2",
     "babel-plugin-transform-async-to-generator": "^6.16.0",
