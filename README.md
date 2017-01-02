@@ -13,13 +13,10 @@ $ npm install --save mac-icons
 ## Usage
 
 ```js
-const osApps = require('mac-icons');
+const macIcons = require('mac-icons');
 
-osApps.getAll().then(apps => {
-  // array of apps...
-  apps.forEach(app => {
-    console.log(app);
-  });
+macIcons.getIcon().then(data => {
+  console.log(data);
 })
 ```
 
